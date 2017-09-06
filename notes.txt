@@ -1,0 +1,12 @@
+Here are some notes in my notes.txt file.
+Today I learned about linux commands in terminal.
+To do git stuff:
+Step 1 git init -- create a repository
+Step 2 git add -- grab all files and package them to send to remote (github)
+Step 3 git commit -- freeze files and send them to remote.  You will need to specify what that remote is first time.  (Step 4)
+Step 4 git remote add origin https://github.com/YOURUSERNAME/YOURREPONME.GIT (you will only have to do this onece)
+Step 5 git push -u origin master. This line sends all the changes you've made on your local repo (you did "git add" and "git commit") and sends them up to the link above which will, from now on, be known as "origin." 
+
+a new command I learned about: locate
+locate will find a file when you aren't sure where it is saved or stored.  
+syntax is locate -i filename
